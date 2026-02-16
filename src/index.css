@@ -1,0 +1,31 @@
+:root {
+  --background: #F7F6F3;
+  --accent: #8B0000;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666666;
+  --font-serif: 'Times New Roman', serif;
+  --font-sans: 'Arial', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
